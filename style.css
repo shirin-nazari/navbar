@@ -14,7 +14,10 @@ header {
   position: absolute;
   cursor: pointer;
   right: 5%;
-  top: 5%;
+  top: 3.5%;
+  /* bottom: 2px; */
+  display: flex;
+  align-items: center;
   transform: translate(-5%, -50%);
   display: none;
   /* background-color: darkgrey;
@@ -49,8 +52,6 @@ a:hover {
   color: rgb(197, 197, 197);
 }
 @media screen and (max-width: 1024px) {
-  header {
-  }
   .navbar-left {
     width: 0%;
     height: 100vh;
