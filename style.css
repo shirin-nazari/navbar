@@ -84,3 +84,8 @@ a:hover {
 .nav-active {
   transform: translateX(0);
 }
+body {
+  background-image: url("https://image.freepik.com/free-photo/closeup-shot-orange-flower-with-blurred-background_181624-25406.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
